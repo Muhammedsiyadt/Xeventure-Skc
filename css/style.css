@@ -43,9 +43,8 @@
 @media (max-width: 576px) {
     .back-to-top {
         width: 40px; /* Smaller width for mobile */
-        height: 40px; /* Smaller height for mobile */
-        right: 10px; /* Adjust right position for smaller screens */
-        bottom: 10px; /* Adjust bottom position for smaller screens */
+        height: 40px;
+        bottom: 10px; 
     }
 }
 
@@ -567,11 +566,12 @@
 
 .service .service-item:hover .service-content .service-content-inner {
     position: relative;
-    color: var(--bs-white) !important;
+    color: #000000 !important;
     z-index: 9;
 }
 .service .service-item:hover .service-content .service-content-inner h5 {
-    color: var(--bs-secondary);
+    /* color: var(--bs-secondary); */
+    color: #0019bb;
 }
 
 /*** Service End ***/
