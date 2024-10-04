@@ -1,271 +1,458 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Terapia - Physical Therapy Website Template</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+<head>
+    <meta charset="utf-8">
+    <title>SKC Refrigeration & Equipment Trading</title>
+    <link rel="icon" type="image/x-icon" href="img/SKC/logo.png">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- our project just needs Font Awesome Solid + Brands -->
+    <link href="fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/fontawesome.css" rel="stylesheet" />
+    <link href="fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/brands.css" rel="stylesheet" />
+    <link href="fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/solid.css" rel="stylesheet" />
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
 
-    <body>
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
+    <!-- Template Stylesheet -->
+    <link href="css/about.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid pb-2 bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0 align-items-center pt-1" style="height: 30px;">
+            <div class="col-lg-6 text-center text-lg-start mb-lg-0">
+                <div class="d-flex flex-wrap">
+                    <!--                         <a href="#" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>SKC</a> -->
+                    <a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+974 44769976,
+                        +97433161309 , +97470501222</a>
+                    <a href="#" class="text-light me-0"><i
+                            class="fas fa-envelope text-primary me-2"></i>info@skcmiddleeast.com</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-end ">
+                <div class="d-flex align-items-center justify-content-end me-4 ">
+                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-0"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
             </div>
         </div>
-        <!-- Spinner End -->
+    </div>
+    <!-- Topbar End -->
 
 
-        <!-- Topbar Start -->
-        <div class="container-fluid bg-dark px-5 d-none d-lg-block">
-            <div class="row gx-0 align-items-center" style="height: 45px;">
-                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
-                    <div class="d-flex flex-wrap">
-                        <a href="#" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
-                        <a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
-                        <a href="#" class="text-light me-0"><i class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a>
-                    </div>
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="text-primary m-0"><img src="img/SKC/logo.png" alt=""></h1>
+                <!-- <h1 class="text-primary m-0"><i class="fas fa-star-of-life me-3"></i>Terapia</h1> -->
+                <!-- <img src="img/logo.png" alt="Logo"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link ">Home</a>
+                    <a href="about.html" class="nav-item nav-link ">About</a>
+                    <a href="blog.html" class="nav-item nav-link active">Products</a>
+                    <!-- <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a> -->
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
                 </div>
-                <div class="col-lg-4 text-center text-lg-end">
-                    <div class="d-flex align-items-center justify-content-end">
-                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-0"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
+                <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Book Appointment</a> -->
             </div>
-        </div>
-        <!-- Topbar End -->
+        </nav>
+    </div>
+    <!-- Navbar End -->
 
 
-        <!-- Navbar & Hero Start -->
-        <div class="container-fluid position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
-                <a href="index.html" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><i class="fas fa-star-of-life me-3"></i>Terapia</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="appointment.html" class="dropdown-item">Appointment</a>
-                                <a href="feature.html" class="dropdown-item">Features</a>
-                                <a href="blog.html" class="dropdown-item active">Our Blog</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-                    </div>
-                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Book Appointment</a>
-                </div>
-            </nav>
-        </div>
-        <!-- Navbar End -->
+    <!-- Header Start -->
 
-
-        <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
-            <div class="container text-center py-5" style="max-width: 900px;">
-                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Physiotherapy Blog</h1>
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Products</h1>
                 <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active text-primary">Blog</li>
-                </ol>    
-            </div>
+                    <li><a class="text-white" href="index.html">Home &nbsp; </a></li>
+                    <li class=" active text-primary"><i class=" fa-solid fa-angles-right"></i></li>
+                    <li class=" active text-primary"> &nbsp; Products</li>
+                </ol>
         </div>
-        <!-- Header End -->
+    </div>
+    <!-- Header End -->
 
 
-        <!-- Blog Start -->
-        <div class="container-fluid blog py-5">
-            <div class="container py-5">
-                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="sub-style">
-                        <h4 class="sub-title px-3 mb-0">Our Blog</h4>
-                    </div>
-                    <h1 class="display-3 mb-4">Excellent Facility and High Quality Therapy</h1>
-                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi quibusdam cumque itaque repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab? Repellat!</p>
-                </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="blog-item rounded">
-                            <div class="blog-img">
-                                <img src="img/blog-1.jpg" class="img-fluid w-100" alt="Image">
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 style="color: rgb(10, 162, 162);" class="text-uppercase">Our Products</h6>
+                <h1 class="mb-4 display-5">Amazing Products for Your Business</h1>
+            </div>
+            <div class="row g-4">
+    
+                <!-- Product 1: Warehouse Racking System -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <a class="text-dark" href="#" data-bs-toggle="modal" data-bs-target="#warehouseModal">
+                        <div class="team-item">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid" src="img/SKC/ware2.jpg" alt="">
                             </div>
-                            <div class="blog-centent p-4">
-                                <div class="d-flex justify-content-between mb-4">
-                                    <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> 01 Jan 2045</p>
-                                    <a href="#" class="text-muted"><span class="fa fa-comments text-primary"></span> 3 Comments</a>
+                            <div class="team-text">
+                                <div class="bg-light">
+                                    <h5 class="fw-bold mb-0">Warehouse Racking System</h5>
+                                    <small>Efficient Storage Solutions</small>
                                 </div>
-                                <a href="#" class="h4">Remove back pain while working on a physio</a>
-                                <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic consequatur beatae architecto,</p>
-                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-1">Read More</a>
+                                <div class="bg-primary text-dark">VIEW</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="blog-item rounded">
-                            <div class="blog-img">
-                                <img src="img/blog-2.jpg" class="img-fluid w-100" alt="Image">
+                    </a>
+                </div>
+    
+                <!-- Product 2: Bakery Equipment -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a class="text-dark" href="#" data-bs-toggle="modal" data-bs-target="#bakeryModal">
+                        <div class="team-item">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid" src="img/SKC/Bakery.webp" alt="">
                             </div>
-                            <div class="blog-centent p-4">
-                                <div class="d-flex justify-content-between mb-4">
-                                    <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> 01 Jan 2045</p>
-                                    <a href="#" class="text-muted"><span class="fa fa-comments text-primary"></span> 3 Comments</a>
+                            <div class="team-text">
+                                <div class="bg-light">
+                                    <h5 class="fw-bold mb-0">Bakery Equipment</h5>
+                                    <small>For Your Baking Needs</small>
                                 </div>
-                                <a href="#" class="h4">Benefits of a weekly physiotherapy session</a>
-                                <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic consequatur beatae architecto,</p>
-                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-1">Read More</a>
+                                <div class="bg-primary text-dark">VIEW</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="blog-item rounded">
-                            <div class="blog-img">
-                                <img src="img/blog-3.jpg" class="img-fluid w-100" alt="Image">
+                    </a>
+                </div>
+    
+                <!-- Product 3: Laundry Equipment -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <a class="text-dark" href="#" data-bs-toggle="modal" data-bs-target="#laundryModal">
+                        <div class="team-item">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid" src="img/SKC/Laundry.png" alt="">
                             </div>
-                            <div class="blog-centent p-4">
-                                <div class="d-flex justify-content-between mb-4">
-                                    <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> 01 Jan 2045</p>
-                                    <a href="#" class="text-muted"><span class="fa fa-comments text-primary"></span> 3 Comments</a>
+                            <div class="team-text">
+                                <div class="bg-light">
+                                    <h5 class="fw-bold mb-0">Laundry Equipment</h5>
+                                    <small>Reliable Cleaning Solutions</small>
                                 </div>
-                                <a href="#" class="h4">Regular excercise can slow ageing process</a>
-                                <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic consequatur beatae architecto,</p>
-                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-1">Read More</a>
+                                <div class="bg-primary text-dark">VIEW</div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-            </div>
-        </div>
-        <!-- Blog End -->
-
-
-        <!-- Footer Start -->
-        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4"><i class="fas fa-star-of-life me-3"></i>Terapia</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem impedit eos autem dolores laudantium quia, qui similique
-                            </p>
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-share fa-2x text-white me-2"></i>
-                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+    
+                <!-- Product 4: Commercial Kitchen Equipment -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <a class="text-dark" href="#" data-bs-toggle="modal" data-bs-target="#kitchenModal">
+                        <div class="team-item">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid" src="img/SKC/curo2.jpg" alt="">
+                            </div>
+                            <div class="team-text">
+                                <div class="bg-light">
+                                    <h5 class="fw-bold mb-0">Commercial Kitchen Equipment</h5>
+                                    <small>Equip Your Kitchen for Success</small>
+                                </div>
+                                <div class="bg-primary text-dark">VIEW</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Quick Links</h4>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Our Blog & News</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Our Team</a>
+                    </a>
+                </div>
+    
+                <!-- Product 5: Industrial Ovens -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <a class="text-dark" href="#" data-bs-toggle="modal" data-bs-target="#ovenModal">
+                        <div class="team-item">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid" src="img/SKC/Laundry.png" alt="">
+                            </div>
+                            <div class="team-text">
+                                <div class="bg-light">
+                                    <h5 class="fw-bold mb-0">Industrial Ovens</h5>
+                                    <small>High Performance for Baking</small>
+                                </div>
+                                <div class="bg-primary text-dark">VIEW</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+    
+                <!-- Product 6: Refrigeration Units -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.1s">
+                    <a class="text-dark" href="#" data-bs-toggle="modal" data-bs-target="#refrigerationModal">
+                        <div class="team-item">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid" src="img/SKC/Refrigeration.webp" alt="">
+                            </div>
+                            <div class="team-text">
+                                <div class="bg-light">
+                                    <h5 class="fw-bold mb-0">Refrigeration Units</h5>
+                                    <small>Advanced Cooling Solutions</small>
+                                </div>
+                                <div class="bg-primary text-dark">VIEW</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Team End -->
+
+    <!-- Modals for Each Product -->
+
+<!-- Modal: Warehouse Racking System -->
+<div class="modal fade" id="warehouseModal" tabindex="-1" aria-labelledby="warehouseModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="warehouseModalLabel">Warehouse Racking System</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid mb-4" src="img/SKC/ware2.jpg" alt="">
+                <p>Efficient Storage Solutions for organized and optimized warehouse management.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal: Bakery Equipment -->
+<div class="modal fade" id="bakeryModal" tabindex="-1" aria-labelledby="bakeryModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="bakeryModalLabel">Bakery Equipment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid mb-4" src="img/SKC/Bakery.webp" alt="">
+                <p>High-quality equipment designed for all your baking needs.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal: Laundry Equipment -->
+<div class="modal fade" id="laundryModal" tabindex="-1" aria-labelledby="laundryModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="laundryModalLabel">Laundry Equipment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid mb-4" src="img/SKC/Laundry.png" alt="">
+                <p>Reliable and efficient laundry solutions for professional cleaning.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal: Commercial Kitchen Equipment -->
+<div class="modal fade" id="kitchenModal" tabindex="-1" aria-labelledby="kitchenModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="kitchenModalLabel">Commercial Kitchen Equipment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid mb-4" src="img/SKC/curo2.jpg" alt="">
+                <p>Equip your kitchen with the best professional-grade equipment.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal: Industrial Ovens -->
+<div class="modal fade" id="ovenModal" tabindex="-1" aria-labelledby="ovenModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ovenModalLabel">Laundry Equipment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid mb-4" src="img/SKC/Laundry.png" alt="">
+                <p>Experience quick, efficient cleaning with our energy-saving commercial
+                    laundry machines.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal: Refrigeration Units -->
+<div class="modal fade" id="refrigerationModal" tabindex="-1" aria-labelledby="refrigerationModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="refrigerationModalLabel">Refrigeration Units</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid mb-4" src="img/SKC/Refrigeration.webp" alt="">
+                <p>Advanced refrigeration technology for your cooling needs.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4"></i>Products</h4>
+                        <p>At SKC Refrigeration & Equipment Trading, we provide a wide range of top-quality commercial
+                            products tailored for various industries, ensuring efficiency and reliability.</p>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-share fa-2x text-white me-2"></i>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
+                                    class="fab fa-instagram"></i></a>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Terapia Services</h4>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> All Services</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Physiotherapy</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Diagnostics</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Manual Therapy</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Massage Therapy</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Rehabilitation</a>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Quick Links</h4>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Trading</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Our Products</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Our Team</a>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Contact Info</h4>
-                            <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
-                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Services</h4>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> All Services</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Refrigeration Equipment</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Supermarket Equipment</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Warehouse Racking</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Kitchen Equipment</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Bakery Equipment</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Contact Info</h4>
+                        <a href=""><i class="fa fa-map-marker-alt me-2"></i> 2nd Floor, Block 6, Arkan Building, The
+                            Commercial Avenue, Doha, Qatar.</a>
+                        <a href=""><i class="fas fa-envelope me-2"></i> info@skcmiddleeast.com</a>
+                        <a href=""><i class="fas fa-phone me-2"></i> +974 44769976, +97433161309 , +97470501222</a>
+                        <!--                             <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67891</a> -->
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
-        
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end text-white">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
-                    </div>
+    </div>
+
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="row g-4 align-items-center w-100">
+                <div class="col-md-12 text-center text-white">
+                    Copyright © 2024 SKC Refrigeration & Equipment Trading. All Rights Reserved. Developed by <a
+                        class="no-underline" href="https://xeventure.com/">Xeventure</a>
                 </div>
             </div>
         </div>
-        <!-- Copyright End -->
+    </div>
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+    <!-- Copyright End -->
 
-        
-        <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-primary  btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>    -->
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-        
-    </body>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
 
 </html>
