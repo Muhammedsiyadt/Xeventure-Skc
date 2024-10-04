@@ -1102,7 +1102,7 @@
 
 /*** Contact Start ***/
 .contact {
-    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/SKC/logo.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1123,6 +1123,33 @@
 .contact .contact-form .form-floating textarea,
 .contact .contact-form .form-floating label {
     color: var(--bs-light);
+}
+
+.contBtn {
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+}
+
+.contBtn i {
+    color: #00d9ff; 
+    transition: color 0.3s;
+}
+
+.contBtn:hover {
+    background-color: #00d9ff; 
+    color: #FFFFFF;
+    border: #fff 1px solid;
+}
+
+.contBtn:hover i {
+    color: #FFFFFF; 
+}
+
+
+@media (max-width: 768px) {
+    .contact {
+        padding: 40px 15px; /* Adjust padding for smaller screens */
+    }
 }
 
 
