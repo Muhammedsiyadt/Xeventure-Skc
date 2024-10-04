@@ -472,7 +472,11 @@
 
 /*** Single Page Hero Header Start ***/
 .bg-breadcrumb {
+<<<<<<< HEAD
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/SKC/pagesBg1.jpg);
+=======
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/SKC/about.jpg);
+>>>>>>> origin/main
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1254,6 +1258,7 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+<<<<<<< HEAD
 
 
 
@@ -1301,3 +1306,5 @@
     background: var(--secondary)
 }
 
+=======
+>>>>>>> origin/main
